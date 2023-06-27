@@ -1,0 +1,26 @@
+Window
+Defination: Represents the browser window and provides methods for controlling it
+Object Reference :window
+Accessing Properties :Example: window.innerHeight
+Properties:	Includes properties such as innerHeight, innerWidth, location, etc
+Purpose:	Used to manipulate the browser window, navigate to URLs, and interact with the user
+Scope: Global	
+Type: Object
+
+
+Screen
+Defination: Represents the properties of the user's screen.
+Object Reference :window.screen	
+Accessing Properties :Example: window.screen.width
+Properties:	Includes properties such as height, width, colorDepth, pixelDepth, etc.
+Purpose:Used to obtain information about the user's screen size and resolution.
+Scope: Global	
+Type: Object
+
+Document
+Defination: Represents the HTML document loaded in the browser.
+Object Reference :window.document 
+Accessing Properties :Example: document.title
+Properties:	Includes properties such as title, body, URL, cookie, etc.
+Purpose:Used to manipulate and access various elements within the HTML document such as text, images, forms, etc.
+Scope: Page-specific	
